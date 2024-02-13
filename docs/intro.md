@@ -2,34 +2,19 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introdução ao Tutorial
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Vamos descobrir o **Docusaurus em menos de 5 minutos**.
 
-## Getting Started
+## Começando
 
-Get started by **creating a new site**.
+Comece **criando um novo site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Ou **experimente o Docusaurus imediatamente** com **[docusaurus.new](https://docusaurus.new)**.
 
-## Generate a new site
+## Gerar um novo site
 
-Generate a new Docusaurus site using the **classic template**:
-
-```shell
-npx @docusaurus/init@latest init my-website classic
-```
-
-## Start your site
-
-Run the development server:
+Gere um novo site Docusaurus usando o **modelo clássico**:
 
 ```shell
-cd my-website
-
-npx docusaurus start
-```
-
-Your site starts at `http://localhost:3000`.
-
-Open `docs/intro.md` and edit some lines: the site **reloads automatically** and display your changes.
+npx @docusaurus/init@latest init meu-site classic
