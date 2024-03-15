@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'Projeto Verão',
-  tagline: 'Dinosaurs are cool',
+  title: 'Visão Tech',
+  tagline: 'Tecnologia em Foco',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -41,9 +41,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Projeto Verão',
+        title: 'Visão Tech',
         logo: {
-          alt: 'Projeto Verão',
+          alt: 'Visão Tech Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,7 +74,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidade',
             items: [
               {
                 label: 'Stack Overflow',
@@ -91,7 +91,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
               {
                 label: 'Blog',
@@ -104,7 +104,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Projeto Verão, Inc. Built with Docusaurus.`,
+        copyright: `Direitos Autorais © ${new Date().getFullYear()} Meu Projeto, Inc. Construído com Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
